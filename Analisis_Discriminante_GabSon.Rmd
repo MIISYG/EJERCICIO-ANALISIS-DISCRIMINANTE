@@ -23,12 +23,6 @@ output: html_document
 # para esto se utiliza la libreria: library(readr) si la extension es csv 
 # o library(readxl) si la extension en xlp.
 
-library(readr)
-
-winequalityred <- read.csv("C:/Users/Home/Downloads/winequality-red.csv", sep = ";")
-summary(winequalityred)
-View(winequalityred)
-
 ```{r}
 library(readr)
 
